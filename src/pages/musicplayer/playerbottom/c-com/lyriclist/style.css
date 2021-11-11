@@ -1,0 +1,33 @@
+.lyriclist {
+  flex: 5;
+  position: relative;
+}
+.lyriclist > .header {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.lyriclist > .list {
+  overflow: auto;
+  height: 322px;
+  width: 100%;
+  transition: all 1s ease-in-out;
+  position: relative;
+  background: linear-gradient(black, transparent, black);
+}
+.lyriclist > .list::-webkit-scrollbar {
+  display: none;
+}
+.lyriclist > .list > .listitem {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 15px;
+}
+.lyriclist > .list > .listitem.active {
+  font-size: 20px;
+}

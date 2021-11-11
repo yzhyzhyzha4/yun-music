@@ -1,0 +1,30 @@
+.songsheetitem {
+  width: 236px;
+  height: 57px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.songsheetitem > .img {
+  width: 57px;
+  height: 57px;
+}
+.songsheetitem > .img > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.songsheetitem > .right {
+  font-size: 15px;
+  width: 153px;
+}
+.songsheetitem > .right > div {
+  height: 28px;
+  line-height: 28px;
+}
+.songsheetitem > .right > div > span {
+  color: gray;
+}
+.songsheetitem > .right > div > span:hover {
+  color: black;
+}

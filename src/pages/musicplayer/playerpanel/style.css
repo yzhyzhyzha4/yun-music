@@ -1,0 +1,14 @@
+.playerpage {
+  width: 1106px;
+  margin-left: 300px;
+  background-image: url("../../../assests/img/wrap-bg.png");
+  background-size: 100% 100%;
+  display: flex;
+}
+.playerpage > .left {
+  display: flex;
+  flex: 8;
+}
+.playerpage > .right {
+  flex: 3;
+}

@@ -1,0 +1,9 @@
+.hotrecommend {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+.hotrecommend > .header {
+  display: flex;
+  font-size: 15px;
+}

@@ -1,0 +1,72 @@
+.playlistcom {
+  flex: 7;
+  height: 372px;
+  background-color: #252525;
+  font-size: 20px;
+}
+.playlistcom > .header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.playlistcom > .header > .headerleft {
+  width: 50px;
+  line-height: 50px;
+  width: 180px;
+  text-align: center;
+}
+.playlistcom > .header > .headerright {
+  width: 220px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.playlistcom > .header > .headerright > span {
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+}
+.playlistcom > .list {
+  width: 100%;
+  height: 322px;
+  overflow: auto;
+}
+.playlistcom > .list > .listitem {
+  cursor: pointer;
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.playlistcom > .list > .listitem:hover {
+  background-color: black;
+}
+.playlistcom > .list > .listitem.active {
+  background-color: black;
+}
+.playlistcom > .list > .listitem > span {
+  display: block;
+}
+.playlistcom > .list > .listitem > .left {
+  height: 35px;
+  line-height: 35px;
+  font-size: 22px;
+}
+.playlistcom > .list > .listitem > .right {
+  display: flex;
+  justify-content: space-around;
+  width: 360px;
+  height: 100%;
+}
+.playlistcom > .list > .listitem > .right > .fourspan {
+  width: 176px;
+  display: flex;
+  justify-content: space-around;
+}
+.playlistcom > .list > .listitem > .right > .fourspan > span:nth-child(5) {
+  width: 75px;
+  overflow: hidden;
+}

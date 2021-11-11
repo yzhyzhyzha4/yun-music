@@ -1,0 +1,117 @@
+.musicplayer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color: #2c2b2b;
+  opacity: 0.9;
+  width: 100%;
+  color: #fff;
+}
+.musicplayer .iconfont {
+  cursor: pointer;
+  color: #b3b3b3;
+  font-weight: 800;
+}
+.musicplayer .iconfont:hover {
+  color: white;
+}
+.musicplayer > div {
+  margin-right: 30px;
+}
+.musicplayer > .left {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 160px;
+  height: 100%;
+}
+.musicplayer > .left > .icon-24gf-playCircle {
+  color: gray;
+}
+.musicplayer > .left > .icon-24gf-playCircle:hover {
+  color: white;
+}
+.musicplayer > .left > span {
+  display: block;
+  font-size: 30px;
+  cursor: pointer;
+}
+.musicplayer > .left > span:nth-child(2) {
+  font-size: 40px;
+  line-height: 50px;
+}
+.musicplayer > .middle {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.musicplayer > .middle > img {
+  display: block;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+.musicplayer > .middle > .middlecont {
+  height: 100%;
+  width: 226px;
+}
+.musicplayer > .middle > .middlecont > .top {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 15px;
+  color: white;
+}
+.musicplayer > .middle > .middlecont > .bottom {
+  display: flex;
+}
+.musicplayer > .right {
+  display: flex;
+  justify-content: space-around;
+  width: 328px;
+  height: 50px;
+  align-content: center;
+  margin-left: 300px;
+}
+.musicplayer > .right > .rightleft {
+  width: 70px;
+  height: 28px;
+  display: flex;
+  justify-content: space-around;
+}
+.musicplayer > .right > .rightleft > span {
+  font-size: 28px;
+}
+.musicplayer > .right > .rightright {
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  height: 50px;
+  align-content: center;
+}
+.musicplayer > .right > .rightright > span {
+  font-size: 28px;
+}
+.lgric .ant-message-notice-content {
+  position: fixed;
+  bottom: 60px;
+  color: red;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.lyricandmusiclist {
+  display: flex;
+  width: 1226px;
+  height: 375px;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #252525;
+}

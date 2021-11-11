@@ -1,0 +1,44 @@
+.leftimg {
+    flex: 3;
+
+    &>.img {
+        width: 220px;
+        height: 220px;
+        margin: 20px auto;
+        position: relative;
+
+        &>img {
+            width: 130px;
+            height: 130px;
+            display: inline-block;
+            margin-left: 36px;
+            margin-top: 28px;
+            position: absolute;
+            animation: imgroute 6s infinite linear;
+        }
+
+        &>span {
+            display: inline-block;
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            background: url("../../../../../assests/img/sprite_cover.png") no-repeat -142px -590px;
+            z-index: 10;
+        }
+    }
+
+    &>a {
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+@keyframes imgroute {
+    0% {
+        transform: rotateZ(0);
+    }
+
+    100% {
+        transform: rotateZ(360deg)
+    }
+}

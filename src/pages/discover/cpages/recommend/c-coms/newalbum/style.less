@@ -1,0 +1,48 @@
+.newalbum {
+    position: relative;
+    width: 100%;
+    background-color: white;
+
+    &>.newablumheader {
+        display: flex;
+        font-size: 15px;
+    }
+
+    &>.newablumcontent {
+        width: 864px;
+        height: 237px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &>.carousel {
+            width: 800px;
+            height: 180px;
+
+            .carouselitem {
+                background-color: #f4f4f4;
+                display: flex !important;
+                justify-content: space-around !important;
+
+                &>.imagetitle {
+                    width: 150px;
+                    height: 180px;
+
+                    &>img {
+                        display: block;
+                        width: 80%;
+                        height: 125px;
+                        margin: 10px auto;
+                    }
+
+                    &>span {
+                        display: block;
+                        text-align: center;
+                        width: 150px;
+                    }
+                }
+            }
+        }
+    }
+}

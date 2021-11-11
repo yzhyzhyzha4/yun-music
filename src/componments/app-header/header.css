@@ -1,0 +1,97 @@
+.Appheader {
+  height: 75px;
+  background-color: #242424;
+}
+.Appheader > .headercontent {
+  height: 70px;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Appheader > .headercontent > .headercontentleft {
+  display: flex;
+}
+.Appheader > .headercontent > .headercontentleft > .headerlogo {
+  display: block;
+  width: 176px;
+  height: 69px;
+  background-position: 0 0;
+}
+.Appheader > .headercontent > .headercontentleft > .headerlink {
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100px;
+  height: 70px;
+  line-height: 70px;
+  cursor: pointer;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 1s;
+  text-decoration: none;
+}
+.Appheader > .headercontent > .headercontentleft > .headerlink:hover {
+  background-color: black;
+}
+.Appheader > .headercontent > .headercontentleft > .headerlink:last-child::after {
+  position: absolute;
+  content: "";
+  width: 28px;
+  height: 19px;
+  background-image: url('../../assests/img/sprite_01.png');
+  top: 20px;
+  height: -15px;
+  background-position: -190px 0;
+}
+.Appheader > .headercontent > .headercontentleft > .active {
+  opacity: 0.8;
+  background-color: black;
+}
+.Appheader > .headercontent > .headercontentleft > .active > .icon {
+  position: absolute;
+  width: 12px;
+  height: 7px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-position: -226px 0;
+}
+.Appheader > .headercontent > .headercontentright {
+  display: flex;
+  width: 500px;
+  height: 70px;
+  line-height: 70px;
+  align-items: center;
+  margin-left: 30px;
+}
+.Appheader > .headercontent > .headercontentright > .headerrightinout {
+  width: 158px;
+  height: 32px;
+  border-radius: 16px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.Appheader > .headercontent > .headercontentright > .createcenter {
+  width: 90px;
+  height: 32px;
+  border-radius: 16px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #666;
+  background-color: transparent;
+  color: white;
+  margin-left: 15px;
+}
+.Appheader > .headercontent > .headercontentright > .loginbutton {
+  width: 50px;
+  height: 32px;
+  border-radius: 16px;
+  line-height: 32px;
+  margin-left: 15px;
+}
+.Appheader > .headerline {
+  height: 5px;
+  background-color: #c20c0c;
+}

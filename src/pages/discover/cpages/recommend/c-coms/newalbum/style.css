@@ -1,0 +1,41 @@
+.newalbum {
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+.newalbum > .newablumheader {
+  display: flex;
+  font-size: 15px;
+}
+.newalbum > .newablumcontent {
+  width: 864px;
+  height: 237px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.newalbum > .newablumcontent > .carousel {
+  width: 800px;
+  height: 180px;
+}
+.newalbum > .newablumcontent > .carousel .carouselitem {
+  background-color: #f4f4f4;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+.newalbum > .newablumcontent > .carousel .carouselitem > .imagetitle {
+  width: 150px;
+  height: 180px;
+}
+.newalbum > .newablumcontent > .carousel .carouselitem > .imagetitle > img {
+  display: block;
+  width: 80%;
+  height: 125px;
+  margin: 10px auto;
+}
+.newalbum > .newablumcontent > .carousel .carouselitem > .imagetitle > span {
+  display: block;
+  text-align: center;
+  width: 150px;
+}

@@ -1,0 +1,28 @@
+.discover > .discoverheader {
+  height: 30px;
+  background-color: red;
+}
+.discover > .discoverheader > .headerlink {
+  margin: 0 auto;
+  width: 727px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.discover > .discoverheader > .headerlink > a {
+  display: block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.discover > .discoverheader > .headerlink > a:hover {
+  background-color: #9b0909;
+}
+.discover > .discoverheader > .headerlink > .active {
+  background-color: #9b0909;
+}

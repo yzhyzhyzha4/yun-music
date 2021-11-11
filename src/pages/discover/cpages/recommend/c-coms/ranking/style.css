@@ -1,0 +1,14 @@
+.ranking {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+.ranking > .rankingcontent {
+  position: relative;
+  left: 20px;
+  width: 863px;
+  height: 530px;
+  background-image: url('@/assests/img/recommend-top-bg.png');
+  background-size: 100% 100%;
+  display: flex;
+}

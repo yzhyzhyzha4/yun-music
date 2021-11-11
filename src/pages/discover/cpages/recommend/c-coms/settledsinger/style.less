@@ -1,0 +1,58 @@
+.Settledsigner {
+    width: 100%;
+
+    &>.header {
+        margin-left: 25px;
+        margin-top: 20px;
+        font-size: 15px;
+
+        &>span:nth-child(1) {
+            font-weight: 600;
+        }
+
+        &>span:nth-child(2) {
+            margin-left: 140px;
+        }
+
+        &>span:nth-child(3) {
+            margin-left: 5px;
+        }
+    }
+
+    &>.list {
+        position: relative;
+        left: 15px;
+
+        &>.listitem {
+            position: relative;
+            left: 0;
+            display: flex;
+            width: 238px;
+            height: 70px;
+            background-color: #fafafa;
+            margin-top: 15px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #f4f4f4;
+            }
+
+            &>img {
+                height: 100%;
+                width: 70px;
+                display: block;
+            }
+
+            &>.itemright {
+                margin-left: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                &>.name {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

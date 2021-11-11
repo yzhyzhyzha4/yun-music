@@ -1,0 +1,63 @@
+.rankinglist {
+  width: 289px;
+  height: 586px;
+}
+.rankinglist > .header {
+  width: 286px;
+  height: 133px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rankinglist > .header > .headerimage {
+  width: 90px;
+  height: 90px;
+  margin-right: 50px;
+  transform: translateY(-10px);
+}
+.rankinglist > .header > .headerimage > img {
+  width: 100%;
+  height: 100%;
+}
+.rankinglist > .header > .headertitle {
+  width: 100px;
+  height: 100px;
+}
+.rankinglist > .header > .headertitle > .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.rankinglist > .header > .headertitle > .icons {
+  display: flex;
+  margin-top: 10px;
+}
+.rankinglist > .list > .listitem {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  width: 289px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.rankinglist > .list > .listitem:nth-child(-n+3) {
+  color: red;
+  font-size: 14px;
+}
+.rankinglist > .list > .listitem > .itemleft {
+  width: 200px;
+  padding-left: 10px;
+}
+.rankinglist > .list > .listitem > .itemleft > .index {
+  margin-right: 10px;
+}
+.rankinglist > .list > .listitem > .itemright {
+  width: 100px;
+  display: none;
+}
+.rankinglist > .list > .listitem:hover > .itemright {
+  display: flex;
+  justify-content: space-around;
+}
+.rankinglist > .footer {
+  padding-left: 60px;
+}

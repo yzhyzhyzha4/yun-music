@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577399",
+      "name": "向下2",
+      "font_class": "xiangxia2",
+      "unicode": "e772",
+      "unicode_decimal": 59250
+    },
+    {
+      "icon_id": "720987",
+      "name": "咖啡",
+      "font_class": "xiazai47",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "2678587",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "11903017",
+      "name": "笑脸",
+      "font_class": "xiaolian",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "14151871",
+      "name": "音乐",
+      "font_class": "yinle",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "18674078",
+      "name": "钢琴",
+      "font_class": "gangqin",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    }
+  ]
+}

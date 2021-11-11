@@ -1,0 +1,23 @@
+.similaritem {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  height: 50px;
+  align-content: center;
+}
+.similaritem > .left > div:first-child {
+  color: black;
+}
+.similaritem > .left > div:last-child {
+  color: gray;
+}
+.similaritem > .right {
+  display: flex;
+  height: 50px;
+  align-content: center;
+  width: 60px;
+  justify-content: space-around;
+}
+.similaritem > .right > span {
+  display: block;
+}

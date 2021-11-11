@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "673794",
+      "name": "链接",
+      "font_class": "lianjie",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    }
+  ]
+}
